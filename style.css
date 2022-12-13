@@ -1,0 +1,25 @@
+.flexbox-container {
+  /* 1. Flex is the value of css display . By using display flex in parent elements, child elements automatically align like columns or rows with auto width and auto height. demo shrink browser, wide shows up on the left side of screen, this allows styling from the parent container without having to style the individual containers*/
+  display: flex;
+  /* 3. flex-end, center, space-around, space-even */
+  justify-content: flex-start;
+}
+
+.flexbox-item {
+  width: 200px;
+  margin: 10px;
+  border: 3px solid #333;
+  background-color: salmon;
+}
+
+.flexbox-item-1 {
+  min-height: 100px;
+}
+
+.flexbox-item-2 {
+  min-height: 200px;
+}
+
+.flexbox-item-3 {
+  min-height: 300px;
+}
